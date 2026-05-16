@@ -13,7 +13,7 @@ matplotlib.rcParams['axes.unicode_minus'] = False
 
 
 def load_data():
-    df = pd.read_csv("/Users/ljyuns07/Documents/컴탐 자료//data/cars.csv")
+    df = pd.read_csv("./data/cars.csv")
     return df
 
 
